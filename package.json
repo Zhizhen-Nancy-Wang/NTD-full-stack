@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon api-15-05-2022/server.js",
-    "dev":"nodemon api--15-05-2022/server.js",
-    "heroku-postbuild":"npm install  --prefix client && npm run build --prefix client",
+    "dev":"nodemon api/server.js",
+    "heroku-postbuild":" run install  --prefix client-15-05-2022 && npm run build --prefix client-15-05-2022",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
